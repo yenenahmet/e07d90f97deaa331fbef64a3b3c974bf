@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.e07d90f97deaa331fbef64a3b3c974bf">
+
+    <application
+        android:name=".TApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppThemeNoActionBar">
+        <activity
+            android:name=".view.mainstation.MainStationActivity"
+            android:label="@string/title_activity_main_station" />
+        <activity
+            android:name=".view.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.E07d90f97deaa331fbef64a3b3c974bf.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
